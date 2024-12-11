@@ -19,10 +19,6 @@ public abstract class Fruit {
         return weight;
     }
 
-    public int getCaloriesPer100g() {
-        return caloriesPer100g;
-    }
-
     public double getTotalCalories() {
         return (weight / 100) * caloriesPer100g;
     }
